@@ -284,7 +284,7 @@ Kullanıcı Girişi
     └───────────┴──────────────┘
                 │
                 ▼
-          Sonraki Prompt
+          Sonraki 
 ```
 
 \---
@@ -304,38 +304,6 @@ Bu, eğitim amaçlı bir implementasyon olduğundan aşağıdaki özellikler **e
 |Here-doc (`<<`)|❌|Heredoc desteği yok|
 |`cd -`|❌|Önceki dizine dönme yok|
 |Betik dosyası|❌|`.sh` dosyası çalıştırma yok|
-
-\---
-
-## &#x20;Katkıda Bulunma
-
-Projeyi geliştirmek için önerilen adımlar:
-
-1. Repo'yu fork'layın
-2. Özellik dalı oluşturun: `git checkout -b ozellik/glob-destegi`
-3. Değişikliklerinizi commit'leyin: `git commit -m "Glob desteği eklendi"`
-4. Pull request açın
-
-### Geliştirme Fikirleri
-
-* \[ ] `$DEĞIŞKEN` genişletme
-* \[ ] `\*.txt` glob desteği
-* \[ ] Komut geçmişi ve yukarı ok navigasyonu
-* \[ ] Sekme tamamlama
-* \[ ] `\&\&` ve `||` operatörleri
-* \[ ] Arka plan çalıştırma (`komut \&`)
-* \[ ] Betik dosyası desteği (`myshell script.sh`)
-
-\---
-
-## &#x20;Referanslar
-
-* [The Linux Programming Interface - Michael Kerrisk](https://man7.org/tlpi/)
-* [Advanced Programming in the UNIX Environment - Stevens \& Rago](https://www.apuebook.com/)
-* [GNU Bash Referans Kılavuzu](https://www.gnu.org/software/bash/manual/)
-* [`fork(2)` man sayfası](https://man7.org/linux/man-pages/man2/fork.2.html)
-* [`execvp(3)` man sayfası](https://man7.org/linux/man-pages/man3/exec.3.html)
-* [`pipe(2)` man sayfası](https://man7.org/linux/man-pages/man2/pipe.2.html)
 
 \---
 
